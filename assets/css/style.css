@@ -1,0 +1,88 @@
+/*Formats the links on the navigation bar to purple */
+#viewhighscores, #home{
+    color:purple;
+}
+/*sets font for timer bold */
+#time{
+    font-weight: bold;
+}
+
+/*Formats back and clear buttons*/
+#backButton, #clearButton {
+    background-color:purple;
+}
+
+/*Formats start button*/
+#startButton{
+    background-color:purple;
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+
+/*Formats how final score displays to user once the quiz is over and they are asked to provide their initials*/
+#score{
+    text-align: left;
+    font-size: medium;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: bold;
+}
+
+#scores{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#master-div {
+    text-align: center; 
+}
+
+#buttonDiv{
+    text-align: center;
+    margin-left: 10%;
+}
+
+#message{
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 30%;
+}
+
+/* Formats question and answer choices*/
+#question, #answers {
+    text-align: left;
+    margin-left: 30%;
+}
+
+/* Answer formatting */
+#answerOne, #answerTwo, #answerThree, #answerFour{
+    background-color: purple;
+    text-align:left;
+    margin-bottom:5px;
+}
+
+/*Formats the input field where the user puts their initials*/
+#input-field {
+    margin-left: 25%;
+    margin-right: 1%;
+}
+
+/* Formats table data */
+td{
+    padding: 5px;
+    background-color: plum;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
