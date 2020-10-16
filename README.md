@@ -28,7 +28,7 @@ When all questions are answered or the timer reaches 0,the game is over. The use
 <br>
 
 ## Application
-The deployed application can be found here:
+The deployed application can be found here: https://denisequarles1.github.io/codingQuiz/
 
 <br>
 
