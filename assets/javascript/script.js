@@ -193,11 +193,13 @@ document.getElementById("answerThree").addEventListener("click", function () {
 //Determines if answerFour is correct or wrong based on the click event
 document.getElementById("answerFour").addEventListener("click", function () {
     if (questions[i]["choices"][3] === questions[i]["answer"]) {
+        //Displays right if answer is wrong and subtracts 10 points
         messageDiv.textContent = "Correct!";
         score= score + 20;
        
     }
     else {
+        //Displays wrong if answer is wrong and subtracts 10 points
         messageDiv.textContent = "Wrong!";
         secondsLeft -= 10;
        
